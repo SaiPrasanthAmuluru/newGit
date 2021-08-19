@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var label : UILabel!
 let re = "sdfds"
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +19,7 @@ let re = "sdfds"
         }else{
             print("what if nil")
         }
-        returnaString(input: "Sai")
+        label.text = returnaString(input: "Sai")
     }
     func returnaString(input : String)->String{
         return String(input.reversed())
