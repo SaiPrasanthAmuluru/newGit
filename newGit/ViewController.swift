@@ -18,8 +18,11 @@ let re = "sdfds"
         }else{
             print("what if nil")
         }
+        returnaString(input: "Sai")
     }
-
+    func returnaString(input : String)->String{
+        return String(input.reversed())
+    }
 
 }
 
