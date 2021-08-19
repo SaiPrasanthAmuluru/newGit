@@ -8,10 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+let re = "sdfds"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        if(re.count > 0){
+            print(re)
+        }else{
+            print("what if nil")
+        }
     }
 
 
