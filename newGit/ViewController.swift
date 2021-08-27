@@ -24,6 +24,8 @@ let re = "sdfds"
     func returnaString(input : String)->String{
         return String(input.reversed())
     }
-
+    func setLayer(textField : UITextField , borderColor : UIColor){
+        textField.layer.borderColor = borderColor.cgColor
+    }
 }
 
