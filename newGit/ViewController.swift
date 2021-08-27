@@ -20,10 +20,13 @@ let re = "sdfds"
         }
         returnaString(input: "Sai")
         returnaString(input: "Prasanth")
+        setBackGroundColor(color: .blue)
     }
     func returnaString(input : String)->String{
         return String(input.reversed())
     }
-
+    func setBackGroundColor(color : UIColor){
+        self.view.backgroundColor = color
+    }
 }
 
